@@ -1,0 +1,13 @@
+User_ID,Full_Name,Email,Department,Job_Title,System_Name,Assigned_Role,MFA_Enabled,Last_Login_Days_Ago,HR_Status,Manager_Review_Decision,Audit_Flag,Remediation_Notes
+USR-101,Aarav Patel,aarav.p@company.com,Engineering,Senior DevOps Engineer,AWS Production,Administrator,TRUE,2,Active,Affirmed,None,Valid business justification verified
+USR-102,Bhavik Shah,bhavik.s@company.com,Engineering,Full Stack Developer,GitHub Enterprise,Write (Repo Contributor),TRUE,1,Active,Affirmed,None,Standard developer rights
+USR-103,Chloe Martin,chloe.m@company.com,Marketing,Content Strategist,AWS Production,Administrator,FALSE,145,Active,Revoked,Excessive Privilege & Inactive,Anomalous admin role assigned by mistake; revoked immediately
+USR-104,Devin Vance,devin.v@company.com,Finance,Billing Specialist,Stripe Dashboard,Admin / Payouts,TRUE,5,Active,Affirmed,SoD Verified,Finance segregation of duties confirmed
+USR-105,Elena Rostova,elena.r@company.com,Engineering,Software Engineer,AWS Production,Read-Only Staging,TRUE,8,Active,Affirmed,None,Appropriate staging access
+USR-106,Faisal Khan,faisal.k@company.com,Engineering,Engineering Manager,Production MongoDB,Full DB Read/Write,TRUE,12,Active,Revoked,Privilege Creep,Retained legacy developer write rights after management promotion
+USR-107,Grace Hopper,grace.h@company.com,Product,Product Designer,Figma Enterprise,Editor,TRUE,4,Active,Affirmed,None,Standard role access
+USR-108,Harish Verma,harish.v@company.com,Sales,Account Executive,Salesforce CRM,Standard User,TRUE,89,Active,Affirmed,Dormancy Warning,Flagged for review if inactivity crosses 90 days
+USR-109,Ian McKellen,ian.m@company.com,IT Support,Systems Administrator,Active Directory / IdP,Global Administrator,TRUE,1,Terminated,Revoked,Orphaned Account (Critical),Employee terminated 3 weeks ago; account was not deprovisioned
+USR-110,Jasmine Kaur,jasmine.k@company.com,Human Resources,HR Generalist,BambooHR,HR Admin,TRUE,3,Active,Affirmed,None,HR authorized user
+USR-111,Karan Mehta,karan.m@company.com,Security,GRC Lead,Audit Compliance Portal,Auditor Read-Only,TRUE,0,Active,Affirmed,None,Internal audit review access
+USR-112,Liam O'Connor,liam.o@company.com,Contractor,External Penetration Tester,VPN Bastion,SSH Jump Host Access,TRUE,120,Contract Ended,Revoked,Expired Contractor Access,Contract concluded 60 days ago; credentials revoked immediately
